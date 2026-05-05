@@ -19,33 +19,27 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I fell in love with programming and have been building things that matter ever since.
               <br />
-              <br />I am fluent in classics like
+              <br />I am fluent in
               <i>
-                <b className="purple"> Dart, Django, Flutter, Firebase. </b>
+                <b className="purple"> Flutter, Django, FastAPI, Python, and AWS.</b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My focus is on building
               <i>
-                <b className="purple">Web & Mobile Applications and Products </b>
+                <b className="purple"> robust, scalable mobile and web applications </b>
               </i>
+              across domains like mobility, logistics, and cloud automation.
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              I'm passionate about
+              <b className="purple"> security hardening, observability,</b> and
               <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
+                <b className="purple"> DevOps pipelines</b>
               </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              — turning reliable engineering into real business impact.
             </p>
           </Col>
           <Col md={4} className="myAvtar">

@@ -1,25 +1,24 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-  DiJavascript1,
   DiReact,
   DiNodejs,
   DiMongodb,
   DiPython,
   DiGit,
-  DiJava,
-  DiNetmagazine
 } from "react-icons/di";
 import {
   SiRedis,
-  SiFirebase,
-  SiNextdotjs,
-  SiDart,
   SiPostgresql,
   SiFlutter,
-  SiDjango
+  SiDjango,
+  SiDart,
+  SiDocker,
+  SiAmazonaws,
+  SiAngular,
+  SiFastapi,
+  SiFlask,
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
   return (
@@ -30,45 +29,45 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiDart />
       </Col>
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
-      </Col> */}
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiDjango />
       </Col>
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
-      </Col> */}
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <SiFastapi />
       </Col>
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
-      </Col> */}
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFlask />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiReact />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAngular />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiNodejs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAmazonaws />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDocker />
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
-      </Col>
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-      </Col> */}
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <DiMongodb />
       </Col>
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
-      </Col> */}
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <DiNetmagazine />
-      </Col> */}
+      <Col xs={4} md={2} className="tech-icons">
+        <SiRedis />
+      </Col>
     </Row>
   );
 }

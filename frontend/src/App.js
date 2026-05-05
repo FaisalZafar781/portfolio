@@ -7,6 +7,7 @@ import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
 import ContactUsCard from "./components/ContactUs/ContactUsCard";
+import Experience from "./components/Experience/Experience";
 
 import {
   BrowserRouter as Router,
@@ -40,6 +41,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
+          <Route path="/experience" element={<Experience />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/contactus" element={<ContactUsCard />} />
 

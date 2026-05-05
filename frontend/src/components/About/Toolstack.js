@@ -3,16 +3,13 @@ import { Col, Row } from "react-bootstrap";
 import {
   SiVisualstudiocode,
   SiPostman,
-  SiSlack,
-  SiVercel,
+  SiDocker,
+  SiJira,
+  SiGithub,
+  SiGitlab,
+  SiSentry,
+  SiTerraform,
   SiMacos,
-  SiHeroku,
-  SiXcode,
-  SiWindows11,
-  SiMicrosoftteams,
-  SiFigma,
-  SiNgrok,
-  SiAndroidstudio
 } from "react-icons/si";
 
 function Toolstack() {
@@ -22,37 +19,28 @@ function Toolstack() {
         <SiMacos />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiWindows11 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostman />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSlack />
+        <SiDocker />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
+        <SiJira />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMicrosoftteams />
+        <SiGithub />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFigma />
+        <SiGitlab />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiHeroku />
+        <SiSentry />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiXcode />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNgrok />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiAndroidstudio />
+        <SiTerraform />
       </Col>
     </Row>
   );

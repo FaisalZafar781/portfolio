@@ -11,9 +11,15 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Faisal Zafar </span>
             from <span className="purple"> Islamabad, Pakistan.</span>
             <br />
-            I am currently employed as a Assocciate Software Engineer at Stack Pinnacle.
+            I am a <span className="purple">Software Engineer</span> with 2+ years of experience delivering
+            cross-platform mobile and web applications across mobility, logistics, bioinformatics,
+            and cloud automation domains.
             <br />
-            I have completed BCE from NUST.
+            Currently working at <span className="purple">Stack Pinnacle</span>, proficient in
+            Flutter, Django, FastAPI, Python, and AWS, with hands-on expertise in security
+            hardening, observability, and DevOps pipelines.
+            <br />
+            I have completed <span className="purple">BCE from NUST</span>.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

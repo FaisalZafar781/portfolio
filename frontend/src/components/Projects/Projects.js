@@ -44,7 +44,7 @@ function Projects() {
               imgPath={lessonplanner}
               isBlog={false}
               title="Lesson Planner GPT"
-              description="Lesson Planner GPT is an innovative web application designed to assist educators in creating effective lesson plans. By leveraging the power of AI, it generates tailored lesson plans based on user inputs, ensuring that teachers can easily adapt their teaching strategies to meet the needs of their students. The platform's user-friendly interface and customizable features make it an invaluable tool for educators seeking to enhance their teaching methods."
+              description="GPT-powered web app for AI-assisted lesson planning with an 'Honest Mode' for transparent model responses. Engineered Pinecone-based semantic search for persona-driven customisation, reducing irrelevant response rate by 30%. Built a Django backend for chat history and authentication, paired with a responsive ReactJS frontend featuring chat UI and saved plans management."
               demoLink="https://yourpeak-ai-lessons-45879e5fb93e.herokuapp.com/"
             />
           </Col>

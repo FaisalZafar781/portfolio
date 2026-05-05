@@ -542,6 +542,61 @@ button:focus {
 }
 
 /* --------- */
+/* Experience */
+/* --------- */
+
+.experience-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1.7px solid rgba(200, 137, 230, 0.4);
+  border-radius: 10px;
+  padding: 30px;
+  margin-bottom: 20px;
+  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137);
+  transition: all 0.4s ease 0s;
+}
+
+.experience-card:hover {
+  transform: scale(1.01);
+  box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.4);
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.experience-period {
+  color: var(--imp-text-color);
+  font-weight: 500;
+  font-size: 1em;
+  white-space: nowrap;
+  padding-top: 5px;
+}
+
+.experience-points {
+  color: rgba(255, 255, 255, 0.85);
+  padding-left: 20px;
+  margin: 0;
+}
+
+.experience-points li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+@media (max-width: 576px) {
+  .experience-header {
+    flex-direction: column;
+  }
+  .experience-period {
+    margin-top: 8px;
+  }
+}
+
+/* --------- */
 /* About */
 /* --------- */
 
